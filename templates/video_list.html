@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video List</title>
+</head>
+<body>
+    <h1>Video List</h1>
+    <ul>
+        {% for video in videos %}
+        <li>
+            <h2>{{ video.title }}</h2>
+            <iframe width="560" height="315" src="{{ video.video_url }}" frameborder="0" allowfullscreen></iframe>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
