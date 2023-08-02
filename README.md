@@ -1,4 +1,4 @@
-Francode Blogging Website
+Coders Blogging Website
 
 The Francode Website is a content platform that allows programmers and technical writers to sign up, share  blog posts and videos that can help upcoming and even slightly experienced programmers solve problems. Users can submit their content, which will then be reviewed by administrators before being approved for public viewing. The website is built using Python and Django, a popular web framework, to ensure a smooth and interactive user experience.
 
