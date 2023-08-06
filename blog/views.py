@@ -33,12 +33,12 @@ def add_video(request):
         Video.objects.create(title=title, video_url=video_url, author=request.user)
         return redirect('video_list')
     return render(request, 'add_video.html')
-
+#disaplays the blog post
 @login_required
 def blog_list(request):
     blogs = BlogPost.objects.filter(is_approved=True)
     return render(request, 'blog_list.html', {'blogs': blogs})
-
+#displays the video list
 @login_required
 def video_list(request):
     videos = Video.objects.filter(is_approved=True)
