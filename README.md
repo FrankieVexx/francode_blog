@@ -24,7 +24,7 @@ We welcome contributions to the Francode Blogging Website. If you find any bugs,
 
 License:
 
-The Francode Blogging Website is open-source and available under the MIT License. You are free to use, modify, and distribute the code following the terms of the license.
+The Francode coding Website is open-source and available under the MIT License. You are free to use, modify, and distribute the code following the terms of the license.
 
 Contact:
 
